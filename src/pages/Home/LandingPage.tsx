@@ -1,5 +1,6 @@
 import Analytics from "../Sceen/Analytics"
 import Hero from "../Sceen/Hero"
+import NewsLetter from "../Sceen/NewsLetter"
 
 
 const LandingPage = () => {
@@ -7,6 +8,7 @@ const LandingPage = () => {
 <>
 <Hero/>
 <Analytics/>
+<NewsLetter/>
 </>
   )
 }

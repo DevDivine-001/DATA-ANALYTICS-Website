@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     setDropDownMenu(!DropDownMenu)
   }
   return (
-      <header className=" top-0 sticky bg-[#000300] border-none">
+      <header className="z-30 top-0 sticky bg-[#000300] border-none">
         <nav  className="flex justify-between items-center h-20 max-w-[1240px] px-3 mx-auto">
         <h1 className="w-full text-3xl font-b' text-[#00df9a] cursor-pointer">React</h1>
         <ul className="hidden md:flex text-[#fff]">
