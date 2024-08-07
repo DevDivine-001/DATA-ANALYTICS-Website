@@ -1,5 +1,6 @@
 // import { Link } from "react-router-dom";
 import React, {useState} from "react"
+import data from "../../assets/pngtree-graph-analytics-business-diagram-marketing-statistics-tren-png-image_1968572-removebg-preview.png"
 
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai"
 
@@ -11,7 +12,7 @@ const Header: React.FC = () => {
   return (
       <header className="z-30 top-0 sticky bg-[#000300] border-none">
         <nav  className="flex justify-between items-center h-20 max-w-[1240px] px-3 mx-auto">
-        <h1 className="w-full text-3xl font-b' text-[#00df9a] cursor-pointer">React</h1>
+        <img src={data} alt="" className="h-[60px] w-[60px] rounded-[50px] object-cover"/>
         <ul className="hidden md:flex text-[#fff]">
           <li className="p-4 hover:text-[#00df9a] ease-in-out duration-700 cursor-pointer">Home</li>
           <li className="p-4 hover:text-[#00df9a]  ease-in-out duration-700 cursor-pointer">Company</li>
