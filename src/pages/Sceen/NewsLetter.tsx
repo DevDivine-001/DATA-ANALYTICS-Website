@@ -15,6 +15,7 @@ const NewsLetter = () => {
         hover:bg-[#fff] cursor-pointer text-[#000]">Get Notify Me</button>
 
                 </div>
+                <p>We care about protection of your data. Read our <span className="text-[#00df9a]">Privacy Policy</span> </p>
             </div>
 
         </div>
