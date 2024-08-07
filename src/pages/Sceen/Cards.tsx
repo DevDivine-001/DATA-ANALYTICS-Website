@@ -7,7 +7,7 @@ const Cards = () => {
     <section className="w-full px-4 py-[10rem] bg-[#fff]">
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-12">
             <div className="w-full shadow-xl flex flex-col p-4 rounded-lg hover:scale-105 duration-500 ">
-                <FaUserCheck size={60} className="w-20 mx-auto mt-[-3rem] bg-[#fff]"/>
+                <FaUserCheck size={60} className="w-20 mx-auto mt-[-3rem]"/>
                 <h1 className="text-2xl font-bold text-center py-8">Single User</h1>
                 <p className="text-center text-4xl font-bold">$3490</p>
                 <div className="font-medium text-center">
@@ -33,7 +33,7 @@ const Cards = () => {
 </div>
             </div>
             <div className="w-full shadow-xl flex flex-col p-4 rounded-lg hover:scale-105 duration-500 ">
-                <FaUsers size={60} className="w-20 mx-auto mt-[-3rem] bg-[#fff]"/>
+                <FaUsers size={60} className="w-20 mx-auto mt-[-3rem]"/>
                 <h1 className="text-2xl font-bold text-center py-8">Triple</h1>
                 <p className="text-center text-4xl font-bold">$6490</p>
                 <div className="font-medium text-center">

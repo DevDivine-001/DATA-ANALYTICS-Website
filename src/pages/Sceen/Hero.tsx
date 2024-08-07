@@ -10,12 +10,12 @@ const Hero = () => {
         <p className="text-[#00df9a] font-bold p-2">GROWING WITH DATA ANALYTICS.</p>
         <h1 className="md:text-7xl sm:text-7xl text-4xl font-bold md:py-3">Grow with data.</h1>
         <div className="flex justify-center items-center">
-          <p className="md:text-5xl sm:text-lg text-lg font-bold py-1">Fast, Flexible, Financing For You.</p>
+          <p className="md:text-5xl sm:text-lg text-md font-bold py-1">Fast, Flexible, Financing For You.</p>
           <ReactTyped strings={['BTB', 'BTC', 'SASS']}
           typeSpeed={120}
           backSpeed={140}
           loop
-          className="md:text-5xl sm:text-lg text-lg font-bold  pl-2 text-gray-500"
+          className="md:text-5xl sm:text-lg text-md font-bold  pl-2 text-gray-500"
           />
             {/* <ReactTyped
           typedRef={setTyped}
