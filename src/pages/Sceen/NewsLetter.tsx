@@ -2,7 +2,7 @@
 
 const NewsLetter = () => {
   return (
-    <div className="w-full py-16 px-4 text-[#fff] bg-[#000300]">
+    <section className="w-full py-16 px-4 text-[#fff] bg-[#000300]">
         <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
             <div className="lg:col-span-2">
                 <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">Want tips & tricks to optimize your flow?</h1>
@@ -19,7 +19,7 @@ const NewsLetter = () => {
             </div>
 
         </div>
-    </div>
+    </section>
   )
 }
 

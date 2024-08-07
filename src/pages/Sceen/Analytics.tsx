@@ -1,7 +1,7 @@
 
 const Analytics = () => {
   return (
-    <div
+    <section
     className="
     w-full bg-[#fff]
     py-16 px-8
@@ -11,7 +11,7 @@ const Analytics = () => {
         className="mx-w-[1240px]
          grid md:grid-cols-2 mx-auto">
            <div className="max-md:w-full flex">
-             <img src="https://i.im.ge/2024/08/07/fuI9qX.analyst-uses-computer-dashboard-data-600nw-2285412737.webp" alt="" className="w-[500px] max-md:w-[270px]  my-4 bg-[red] h-[270px] object-cover rounded-lg"/>
+             <img src="https://i.im.ge/2024/08/07/fuI9qX.analyst-uses-computer-dashboard-data-600nw-2285412737.webp" alt="" className="w-[500px] max-md:w-[270px]  my-4  h-[270px] object-cover rounded-lg"/>
            </div>
           <div className="flex justify-center flex-col flex-wrap  max-md:w-[270px]">
               <p className="text-[#00df9a]
@@ -25,7 +25,7 @@ const Analytics = () => {
             </div>
           </div>
         </div>
-    </div>
+    </section>
   )
 }
 

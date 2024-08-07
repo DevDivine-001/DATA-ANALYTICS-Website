@@ -1,9 +1,20 @@
+// import {
+//   FaFacebookSquare,
+//   FaGithubSquare,
+//   FaInstagram,
+//   FaTwitterSquare,
+// }
+// from "react-icons/fa"
 
+// const Footer = () =>{
+//   return(
+//     <div cn>
+//       <div>
+//         <h1></h1>
+//         <p></p>
+//       </div>
+//     </div>
+//   )
+// }
 
-const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
-}
-
-export default Footer
+// export default Footer
